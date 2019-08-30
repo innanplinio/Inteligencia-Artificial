@@ -1,0 +1,17 @@
+O arquivo jogovelha_Innan.py foi implementado utilizando
+a poda alpha-beta buscando sempre a melhor jogada 
+possivel a se fazer pelo computador. Como esse algoritmo
+garante que a solução ótima seja encontrada, consequentemente
+a IA demora mais tempo para efetuar a jogada.
+O arquivo jogovelha2_Innan.py também utiliza poda
+alpha-beta, porém limita a busca em profundidade
+para expandir apenas 5 nós no maximo. 
+Isso faz com que o algoritmo se torne mais eficiênte, porém 
+não é garantido que sempre efetue melhor jogada
+possível. Para corrigir isso é feito uma verificação
+antes de cada jogada, se o computador puder ganhar
+na jogada atual, ele ganha, e se o humano puder ganhar
+ele bloqueia.
+Os dois algoritmos garantem que a IA nunca irá perder,
+portanto o objetivo do trabalho é cumprido nas duas 
+implementações.
